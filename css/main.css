@@ -102,6 +102,22 @@ img{max-width:100%;}
 .company-top-content{border-bottom:0 !important;border-radius:.5em .5em 0 0 !important;padding: 1.7% 6.8% 0 5.5%;}
 .company-bottom-content{border-radius:0 0 .5em .5em !important;padding: 1.7% 6.8% 12.5% 5.5%;}
 .company-content-font{text-indent:2em;text-align:justify;font-size:14px;line-height: 2;color:#999;}
+.anchor-nav{
+    list-style: none;
+    text-align: left;
+    padding-left:0;
+}
+.anchor-nav li{
+    float:left;
+    margin-right:4.25%;
+}
+.anchor-nav li:hover{
+    color:#fff;
+    background-color: #29B078;
+}
+.anchor-nav li:first-child{
+    color:#999;
+}
 @media screen and (max-width: 767px) {
     .icon a{margin-right:0;}
     .width767-hidden{display: none;}
