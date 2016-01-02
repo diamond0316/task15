@@ -23,6 +23,14 @@ nav ul li a{
     font-size:18px;
     text-decoration: none;
 }
+.p-12px{
+    font-size:12px;
+}
+.p-16px-B{
+    font-size:16px;
+    font-weight:600;
+    color:inherit;
+}
 .p-16px-a1{
      font-size:16px;
      color:#a1a1a1;
@@ -37,6 +45,12 @@ nav ul li a{
     font-size:14px;
     color:#29B078;
     text-align:left;
+}
+.font-color-orange{
+    color:#f01400;
+}
+.font-color-999{
+    color:#999;
 }
 .pd-left-40{
     padding-left:40px;
@@ -118,6 +132,21 @@ img{max-width:100%;}
 .anchor-nav li:first-child{
     color:#999;
 }
+.job-col-border{
+    border:1px solid #edf1f2;
+    border-radius:.5em;
+    background-color: #ffffff;
+}
+.job-col-border-bottom{
+    border-bottom:1px solid #edf1f2;
+}
+.job-col-border-right{
+    border-right:1px solid #edf1f2;
+}
+.job-col-border-left{
+    border-left:1px solid #edf1f2;
+}
+.job-col-padding{padding:14px 15px;}
 @media screen and (max-width: 767px) {
     .icon a{margin-right:0;}
     .width767-hidden{display: none;}
