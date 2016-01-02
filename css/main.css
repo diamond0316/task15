@@ -150,9 +150,6 @@ img{max-width:100%;}
 /* entire container, keeps perspective */
 .flip-container {
     perspective: 1000;
-    margin-top:32px;
-    margin-right:19px;
-    border:1px solid #eeeded;
     background-color:#fff;
     color:#999;
 }
@@ -162,6 +159,7 @@ img{max-width:100%;}
 }
 
 .flip-container, .front, .back {
+    height:500px;
 }
 
 /* flip speed goes here */
@@ -187,6 +185,23 @@ img{max-width:100%;}
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
+}
+.back{
+    font-size:16px;
+    color: #fff;
+    background-color:#000;
+    overflow:hidden;
+}
+.back p{
+    text-align:center;
+    font-size:16px;
+    font-weight: 600;
+    margin:87px 41px 36px;
+}
+.back p:last-child{
+    line-height: 1.5;
+    margin:0 41px;
+    text-align: justify;
 }
 @media screen and (max-width: 767px) {
     .icon a{margin-right:0;}
